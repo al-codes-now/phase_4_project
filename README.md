@@ -1,5 +1,7 @@
 # Pneumonia Classification
 
+![img](./images/header.jpg)
+
 ### Using convolutional neural networks to identify pneumonia from chest x-rays
 
 **Authors**: [Ijeoma Akamnonu](mailto:inakamno@buffalo.edu) ,[Alexandra Bruno](mailto:alexandrabruno7898@gmail.com)
@@ -10,7 +12,7 @@ We built a convolutional neural network to predict the prescence of pneumonia in
 
 ## Business Problem
 
-Those who exam x-rays in order to make a diagonsis are required to obtain years of training. Having a predcitive model that can determine whether an x-ray shows signs of pneumonia can be an extremely powerful too for understaffed health care facilities. This can be a helpful tool for the medical community to consider when resourced need to better better allocated. 
+Those who exam x-rays in order to make a diagonsis are required to obtain years of training. Having a predcitive model that can determine whether an x-ray shows signs of pneumonia can be an extremely powerful too for understaffed health care facilities. This can be a helpful tool for the medical community to consider when resources need to better better allocated. 
 
 ## Data 
 
@@ -19,14 +21,14 @@ The data consists of 5,863 x-ray images. The data set shows both baterical and v
 Data split
 
 1. Training set: 4101 images 
-2. Validation set: 1170images 
+2. Validation set: 1170 images 
 3. Testing set: 585 images
 
 ## Methodology 
 
-Given the size of the original images we chose to resize them to 256x256x pixels and greysclaed the images. 
+Given the size of the original images we chose to resize them to 256x256x pixels and greyscale the images. 
 
-For running the models we used an Adamn optimizer. The final model consists of 5 two-dimension convolutional layes and maxpooling layers, 2 dropout lays, and a flatining and denskey connected layer. Recall and accuracy were the metrics we chose to optimize for this project. 
+For running the models we used an Adamn optimizer. The final model consists of 5 two-dimension convolutional layes and maxpooling layers, 2 dropout layers, and a flattening and densely connected layer. Recall and accuracy were the metrics we chose to optimize for this project. 
 
 ## Results
 
