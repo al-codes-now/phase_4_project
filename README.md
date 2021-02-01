@@ -2,15 +2,11 @@
 
 ### Using convolutional neural networks to identify pneumonia from chest x-rays
 
-**Authors**: [Ijeoma Akamnonu](mailto:inakamno@buffalo.edu) , [Alexandra Bruno] (mailto:alexandrabruno7898@gmail.com)
+**Authors**: [Ijeoma Akamnonu](mailto:inakamno@buffalo.edu) ,[Alexandra Bruno](mailto:alexandrabruno7898@gmail.com)
 
-##Overview 
+## Overview 
 
 We built a convolutional neural network to predict the prescence of pneumonia in chest x-rays of children. Due to our business problem, we prioritized recall and accuracy metrics. We were more tolerant towards false positives, but of course did not want to over predict on the pneumonia class, and for this reason we took accuracy metrics into consideration when evalutating our model.
-
-Summary of final model: 
-
-![img](
 
 ## Business Problem
 
@@ -36,7 +32,16 @@ For running the models we used an Adamn optimizer. The final model consists of 5
 
 ### Model 1 
 
+![img](./images/mod1.jpg)
+
 ### Model 2
+![img](./images/mod2.jpg)
 
 ### Final Model 
+
+![img](./images/finalmod.jpg)
+
+## Discusiion and Conclusion
+
+The results of the model statisfied what we aimed to do initally, aim to have a high recall and accuracy score. Although the model isn't perfect, given that we had a week to complete the project we think this is a good start. Going forward we would like to implement other optimizers and try different hyperparameters to see if it is possible to improve the model further. 
 
