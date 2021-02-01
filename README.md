@@ -63,7 +63,14 @@ For running the models we used an Adamn optimizer. The final model consists of 5
 
 ![img](./images/finalmod.jpg)
 
-## Discusiion and Conclusion
+## Discussion and Conclusions
 
 The results of the model statisfied what we aimed to do initally, aim to have a high recall and accuracy score. Although the model isn't perfect, given that we had a week to complete the project we think this is a good start. Going forward we would like to implement other optimizers and try different hyperparameters to see if it is possible to improve the model further. 
+
+## Further Analysis
+
+To better train our model on it's classification abilities, we can:
+* experiment with further hyperparameters to improve recall and accuracy scores
+* implement Principle Component Analysis to identiy any more significat distinguishing features that will help our model
+
 
