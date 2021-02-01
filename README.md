@@ -2,7 +2,7 @@
 
 ### Using convolutional neural networks to identify pneumonia from chest x-rays
 
-**Authors**: [Ijeoma Akamnonu][mailto:inakamno@buffalo.edu] , [Alexandra Bruno] [mailto:alexandrabruno7898@gmail.com]
+**Authors**: [Ijeoma Akamnonu](mailto:inakamno@buffalo.edu) , [Alexandra Bruno] (mailto:alexandrabruno7898@gmail.com)
 
 ##Overview 
 
@@ -25,4 +25,18 @@ Data split
 1. Training set: 4101 images 
 2. Validation set: 1170images 
 3. Testing set: 585 images
+
+## Methodology 
+
+Given the size of the original images we chose to resize them to 256x256x pixels and greysclaed the images. 
+
+For running the models we used an Adamn optimizer. The final model consists of 5 two-dimension convolutional layes and maxpooling layers, 2 dropout lays, and a flatining and denskey connected layer. Recall and accuracy were the metrics we chose to optimize for this project. 
+
+## Results
+
+### Model 1 
+
+### Model 2
+
+### Final Model 
 
