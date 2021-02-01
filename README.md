@@ -25,12 +25,13 @@ Data split
 3. Testing set: 585 images
 
 ![img](./images/5normal_5pnuemo.png)
+
 Looking at 5 random images from both classes, we noticed 2 types on pneumonia infections, bacterial and viral. So, with that, we can isolate these infection types to analyze them further and see if we can find any notable distinguishing features and characteristics.
 
 ### Findings 1
 Plotting the distribution of pixel intensity, or brightness, will help us clearly see where one class or type is more prominent. The more of that color in that region, the more intense its pixels are in that region. This may suggest some special activity about the disease.
 ![img](./images/avg_diff_Pnuemonia_vs_Normal.PNG)
-From the pixel intensity distributions shown above, we see that normal chest x-rays have a wider range of pixel intensities but overall, Pneumonia x-rays showed higher intensities. This finding is not surprising to us because as we already saw from our earlier visualizations, pneumonia x-rays appear cloudier and lighter, or in other words, appear to have a higher intensity.
+From the pixel intensity distributions shown above, we see that normal chest x-rays have a wider range of pixel intensities but overall, Pneumonia x-rays showed higher intensities. This finding is not surprising to us because as already seen from earlier visualizations, pneumonia x-rays appear cloudier and lighter, or in other words, appear to have a higher intensity.
 
 We are not surprised to see more intense activity coming from the lungs for pneumonia patients, because pneumonia is a respiratory disease.
 
